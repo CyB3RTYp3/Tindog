@@ -1,0 +1,189 @@
+ACTROR YOUR CODE-MAKE IT SMALL BY REMOVING AND GROUPING REPEATED CODE!!!!!!!! */
+
+body{
+    font-family: "Montserrat-Black";
+}
+
+#title{
+    background-color:#ff4c68 ;
+    color: #fff;   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+
+}
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    
+}
+.nav-item{
+    padding: 0px 15px;
+}
+
+.nav-link{
+    font-family: "Montserrat-Thin";
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+/* Buttons */
+.down-btn{
+    margin: 5% 3% 3% 0;
+}
+
+
+/* Title Image */
+.title-img {
+    max-width:50%;
+    transform: rotate(25deg);
+    padding-top: 20px;
+    position: absolute;
+   
+}
+
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight:bold;
+}
+h2{
+    font-family:"Montserrat";
+    size: 3.5rem;
+    color: #fff;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* Feature */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.feat-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef817e;;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef817e;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.test-img{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press{
+    background-color: #ef817e;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-img{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Table */
+#h2h{
+    color: black;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pr-col{
+    padding: 2% 2%;
+}
+
+
+
+/* Cta */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.cta-h{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.sp-f{
+    margin:10px 10px;
+    color: #000;
+}
+.cp-r{
+    color:grey;
+}
+
+
+@media(max-width:1280px)
+{
+    .container-fluid{
+        padding: 3% 15%;
+    }
+    .title-img
+    {
+        width: 60%;
+        position: relative;
+        transform: rotate(0);
+        left: 50px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+@media(max-width:580px)
+{
+    .title-img
+    {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* REFACTROR YOUR CODE-MAKE IT SMALL BY REMOVING AND GROUPING REPEATED CODE!!!!!!!! */
